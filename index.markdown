@@ -83,6 +83,19 @@ SMLIGHT SLZB07 -  Hardware flow control
 
 -----
 
+
+## MGM210L
+MGM210L -  Hardware flow control  
+![SLZB-07](./assets/images/mgm210l.png)  
+
+<div class="Supported">
+    <nabucasa-zigbee-flasher manifest="./assets/manifests/mgm210l.json">
+        <span slot="button">Connect</span>
+    </nabucasa-zigbee-flasher>
+</div>
+<br>
+
+-----
 <script>
     if(!navigator.serial){
         // const buttons = document.querySelectorAll('.Supported');

@@ -1,0 +1,18 @@
+{
+	"product_name": "MGM210L",
+	"baudrates": {
+		"bootloader": [115200],
+		"cpc": [460800, 115200, 230400],
+		"ezsp": [115200],
+		"spinel": [460800]
+	},
+	"firmwares": [
+		{
+			"name": "OpenThread",
+			"url": "https://raw.githubusercontent.com/makerwolf1/silabs-firmware-builder/main/firmware_builds/mgm210l/ot-rcp-v2.4.0.0-mgm210l-460800.gbl",
+			"type": "ot-rcp",
+			"version": "2.4.0.0"
+		}
+	],
+	"allow_custom_firmware_upload": true
+}
